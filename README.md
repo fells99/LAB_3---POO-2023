@@ -10,11 +10,11 @@ A aplicação visa fornecer informações detalhadas sobre os corpos celestes do
 
 - Cadastro, leitura, atualização e exclusão de informações sobre corpos celestes.
 - Apresentação de informações detalhadas sobre cada corpo celeste.
-- Interface amigável e intuitiva para facilitar a navegação e aprendizado.
+- Interface amigável e intuitiva para facilitar a navegação.
 
 ## Nome dos Desenvolvedores e RA
 
-- André Silveira Franco (RA: XXXXXXX)
+- André Silveira Franco (RA: 202103306)
 - Felipe Pereira de Brito (RA: 202102000)
 
 ## Tecnologia Empregada
@@ -38,7 +38,7 @@ A arquitetura da aplicação segue os princípios da Programação Orientada a O
 
 ## Funcionalidade
 
-A terminar
+# A terminar
 
 ### Operações CRUD
 
