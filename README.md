@@ -10,7 +10,7 @@
    
 ## Sobre o Projeto
 
-O projeto "Corpos Celestes do Sistema Solar" é uma aplicação Java desenvolvida como parte do curso de Programação Orientada a Objetos na USF (Universidade São Francisco). Será utilizado principalmente o CRUD (Create, Read, Update, Delete)
+O projeto "Corpos Celestes do Sistema Solar" é uma aplicação Java desenvolvida como parte do curso de Programação Orientada a Objetos na USF (Universidade São Francisco). Será utilizado principalmente o CRUD (Create, Read, Update, Delete). <br/>
 A aplicação visa fornecer informações detalhadas sobre os corpos celestes do Sistema Solar, promovendo o conhecimento científico e educacional no Brasil.
 
 <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
@@ -34,14 +34,13 @@ A aplicação visa fornecer informações detalhadas sobre os corpos celestes do
 
 - Linguagem de Programação: Java
 - Framework: Spring Boot
-- Banco de Dados: SQL (utilizando Hibernate para mapeamento objeto-relacional)
+- Banco de Dados: SQL
 - Ferramentas de Build: Maven
 - Editor: Visual Studio Code
 
 ### Razão da escolha
 - Java é escolhido devido à sua robustez e ampla adoção na comunidade de desenvolvimento.
 - Spring Boot simplifica o desenvolvimento e configuração, acelerando o processo.
-- O uso do Hibernate facilita a integração com o banco de dados relacional.
 
 <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
 
