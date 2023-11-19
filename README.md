@@ -53,27 +53,4 @@ A arquitetura da aplicação segue os princípios da Programação Orientada a O
 
   <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
 
-## Funcionalidade
 
-#### A terminar
-
-<p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
-
-### Operações CRUD
-
-Onde foi aplicado cada operação do método do CRUD (Create, Read, Update e Delete)
-
-1. **Create:**
-   - Endpoint para adicionar um novo corpo celeste com informações completas.
-
-2. **Read:**
-   - Endpoint para recuperar informações de todos os corpos celestes.
-   - Endpoint para obter detalhes de um corpo celeste específico.
-
-3. **Update:**
-   - Endpoint para modificar informações de um corpo celeste existente.
-
-4. **Delete:**
-   - Endpoint para excluir um corpo celeste do sistema.
-  
-     <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
