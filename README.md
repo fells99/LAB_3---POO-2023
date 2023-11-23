@@ -49,10 +49,25 @@ A aplicação visa fornecer informações detalhadas sobre os corpos celestes do
 
 ## Descrição da Arquitetura
 
-A arquitetura da aplicação segue os princípios da Programação Orientada a Objetos, com a separação clara de responsabilidades em classes e módulos. As principais classes incluem:
-- `CorpoCeleste`: Representa um corpo celeste com atributos como nome, tipo, tamanho, etc.
-- `CorpoCelesteService`: Contém a lógica de negócios para manipulação de corpos celestes.
-- `CorpoCelesteController`: Controla as requisições HTTP e interage com o serviço.
+A arquitetura da aplicação segue os princípios da Programação Orientada a Objetos, com a separação clara de responsabilidades em classes e módulos. Abaixo será explicado sobre os pacotes:
+- `Pacote com.example.corposcelestessistemasolar.repository`:
+
+Neste pacote, há uma interface chamada `CorposCelestesrepository`, que estende JpaRepository do Spring Data JPA. Essa interface fornece métodos CRUD padrão, bem como um método personalizado findByTipo. Essa interface permite a interação com o banco de dados de maneira fácil e eficiente.
+- `Pacote com.example.corposcelestessistemasolar.models`:
+
+Este pacote contém a classe `CorposCelesteSistemaSolar`, que é uma entidade JPA (Java Persistence API) representando os corpos celestes no sistema solar. A classe é mapeada para a tabela `corpos_celestes` no banco de dados. As propriedades da classe correspondem às colunas da tabela.
+- `Pacote com.example.corposcelestessistemasolar.controllers`:
+
+Neste pacote, há um controlador chamado `CorpoCelesteController`, que é responsável por lidar com as requisições HTTP relacionadas aos corpos celestes. Ele usa a anotação `@RestController` para indicar que as funções neste controlador retornam dados diretamente em vez de renderizar visualizações. As operações básicas de CRUD (Create, Read, Update, Delete) são implementadas para manipular os recursos `CorposCelesteSistemaSolar`.
+- `Pacote com.example.corposcelestessistemasolar`:
+
+ Este pacote contém a classe principal `CorposcelestessistemasolarApplication`, que é a classe de inicialização da aplicação Spring Boot. Ela usa a anotação `@SpringBootApplication` para indicar que é uma aplicação Spring Boot.
+SQL para a tabela `corpos_celestes`:
+<br/>
+Existe um script SQL que cria a tabela `corpos_celestes` no banco de dados. Essa tabela armazena informações sobre os corpos celestes, como nome, tipo, tamanho, distância do sol e elemento químico predominante.
+- `Pacote test`:
+
+Existe um `pacote test` com a classe `CorposcelestessistemasolarApplicationTests`. Esta classe contém um método de teste vazio (contextLoads()) que é executado durante o teste da aplicação. Essa classe é criada automaticamente pelo Spring Boot para garantir que a aplicação inicialize corretamente.
 
   <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
 
