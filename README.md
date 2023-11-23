@@ -37,10 +37,13 @@ A aplicação visa fornecer informações detalhadas sobre os corpos celestes do
 - Banco de Dados: SQL
 - Ferramentas de Build: Maven
 - Editor: Visual Studio Code
+- Tester: Insomnia
 
 ### Razão da escolha
 - Java é escolhido devido à sua robustez e ampla adoção na comunidade de desenvolvimento.
 - Spring Boot simplifica o desenvolvimento e configuração, acelerando o processo.
+- SQL devido a sua integração com o Visual Studio, pois oferece suporte a Entity Framework para mapeamento objeto-relacional (ORM), facilitando a interação com o banco de dados.
+- Insomnia foi utilizado pois permite enviar solicitações HTTP para testar endpoints de serviços web, assim nos ajudando a realizar os testes necessários na API do projeto CCSS.
 
 <p align="right">(<a href="#readme-top">Voltar ao início</a>)</p>
 
